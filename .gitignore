@@ -1,0 +1,12 @@
+# Ignore dependency folders in any directory
+node_modules/
+**/node_modules/
+
+# Ignore environment variables (sensitive data)
+.env
+backend/.env
+frontend/.env
+
+# Ignore build outputs
+dist/
+build/
